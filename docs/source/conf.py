@@ -58,3 +58,5 @@ html_static_path = ['_static']
 # Otherwise, 'contents' appaers to be the expected default: https://github.com/readthedocs/readthedocs.org/issues/2569
 master_doc = 'index'
 
+# Change the favicon (https://stackoverflow.com/a/54665517/271775)
+html_favicon = 'img/favicon.ico'
