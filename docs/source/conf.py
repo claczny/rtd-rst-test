@@ -54,3 +54,7 @@ html_theme_options = {
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
+# Needed so the build of RTD works.
+# Otherwise, 'contents' appaers to be the expected default: https://github.com/readthedocs/readthedocs.org/issues/2569
+master_doc = 'index'
+
