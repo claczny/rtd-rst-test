@@ -3,11 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-.. .. toctree::
-..   :maxdepth: 2
-..   :caption: Contents:
-
-.. image:: img/EMBO_PracticalCourse_Header_01.png
+.. image:: img/EMBO_PracticalCourse_Header_03.png
   :alt: EMBO Practical Course 2020 - Integrated multi-omic analyses of microbial communities - 16th to 23rd March 2020
 
 Home
@@ -22,13 +18,13 @@ These may be links to relevant papers, slides, or instructions on how to run the
 A brief explanation of the main organizational elements on this website:
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-- A link looks as follows: 
+- A link looks as follows:
 
     `this is a link which brings you to Google <http://www.google.com/>`_.
 
 - A code block looks like the following:
-   
- 
+
+
 ::
 
     Code blocks are in typewriter font and detail commands that should be executed
@@ -54,7 +50,15 @@ Project layout
 .. toctree::
   :maxdepth: 2
 
-  preparation
+  preparation/index
+  day01/index
+  day02/index
+  day03/index
+  day04/index
+  day05/index
+  day06/index
+  day07/index
+  day08/index
 
 .. * :ref:`genindex`
 .. * :ref:`modindex`

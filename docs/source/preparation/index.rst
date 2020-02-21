@@ -12,7 +12,7 @@ Please note that these should not be distributed, unless the respective licenses
 
 Metagenomics
 ^^^^^^^^^^^^
-- `Sharon, Banfield, 2013, Science <https://www.ncbi.nlm.nih.gov/pubmed/24288324>`_ 
+- `Sharon, Banfield, 2013, Science <https://www.ncbi.nlm.nih.gov/pubmed/24288324>`_
 - `Sieber, 2018, Nature Microbiology <https://www.ncbi.nlm.nih.gov/pubmed/29807988>`_
 - `Brown, 2016, Nature Biotechnology <https://www.ncbi.nlm.nih.gov/pubmed/27819664>`_
 
@@ -80,7 +80,8 @@ Interactive session
 """""""""""""""""""
 An interactive session behaves the same way as a regular session, i.e., on the access node, but provides *dedicated* resources to run computational tasks.
 The simplest reservation is::
-    srun --pty bash -i
+
+  srun --pty bash -i
 
 This will result in reservation of a single core for 1 hour.
 
@@ -88,9 +89,11 @@ N.B. If your reservation times out, the job will be killed automatically and the
 This means that you should consider upfront how long you estimate your session to run.
 
 To reserve an interactive session for a maximum of 4 hours, please use::
+
     srun -t 04:00:00 --pty bash -i
 
 To include a total of 4 cores on a **single** node, please use::
+
     srun -N 1 -c 4 -t 04:00:00 --pty bash -i
 
 N.B. Make sure that your command *always* includes ``-N 1``.
