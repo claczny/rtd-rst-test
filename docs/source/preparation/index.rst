@@ -8,7 +8,7 @@ Publications
 ------------
 You can find a copy for your personal use in the `publications owncloud folder of the course <https://owncloud.lcsb.uni.lu/s/OrtKd15mdiZIXRj>`_.
 The access password was or will soon be sent to you.
-Please note that these should not be distributed, unless the respective licenses allow so.
+Please note that these should **not** be distributed, unless the respective licenses allow so.
 
 Metagenomics
 ^^^^^^^^^^^^
@@ -48,7 +48,7 @@ Single-cell analyses
 Compute
 -------
 
-If possible, we strongly encourage using a Linux-based or macOS-based laptop, simply because most tools are command line-based.
+If possible, we strongly encourage using a Linux-based or macOS-based laptop, simply because most tools used in this course are command line-based.
 Please do not worry if this does not represent a feasible solution for you.
 Most of the computations will be performed on the uni.lu HPC remotely.
 
