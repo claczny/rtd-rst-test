@@ -9,8 +9,8 @@
 Home
 ====
 
-Welcome to our 8-day course on integrating multi-omic data to study mixed microbial communities.
-You can find the detailed schedule on the [course website](https://meetings.embo.org/event/20-microbial-communities#Programme).
+Welcome to our 8-day EMBO Practical Course on integrating multi-omic data to study mixed microbial communities.
+You can find the detailed schedule on the `course website <https://meetings.embo.org/event/20-microbial-communities#Programme>`_.
 Here, in the left sidebar, you can find entries that guide you to the respective materials.
 These may be links to relevant papers, slides, or instructions on how to run the individual computational parts that we will introduce and explain in this course.
 
@@ -46,6 +46,9 @@ Project layout
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
 
+
+Course structure
+""""""""""""""""
 
 .. toctree::
   :maxdepth: 2
