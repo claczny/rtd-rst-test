@@ -5,5 +5,5 @@ Day01 - The Why and the How
   :maxdepth: 1
 
   multiomics_why
-  snakemake
   technical_intro
+  snakemake
