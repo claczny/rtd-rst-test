@@ -61,7 +61,7 @@ You have or will receive your uni.lu HPC login credentials from us.
 These consist of a user ID and a key-pair (public and private key).
 Please use these credentials and follow the instructions on the `uni.lu HPC Access website <https://hpc.uni.lu/users/docs/access.html>`_) for `Linux <https://hpc.uni.lu/users/docs/access/access_linux.html>`_, `macOS <https://hpc.uni.lu/users/docs/access/access_linux.html>`_, and `Windows <https://hpc.uni.lu/users/docs/access/access_windows.html>`_.
 
-N.B. The port on which the SSH servers are listening is not the default one (i.e. 22) but **8022**, so please make sure to adjust this in your configuration.
+.. note:: The port on which the SSH servers are listening is not the default one (i.e. 22) but **8022**, so please make sure to adjust this in your configuration.
 
 To log-in using ``ssh`` under Linux or macOS, use::
 
@@ -70,7 +70,7 @@ To log-in using ``ssh`` under Linux or macOS, use::
 You will then reach the access node of the UL HPC.
 This particular node is meant as an **intermediary** point from which you reserve your actual resources, i.e., compute nodes.
 
-N.B. **NEVER** run compute intensive commands on the *access* node but reserve a compute node for this.
+.. note:: **NEVER** run compute intensive commands on the *access* node but reserve a compute node for this.
 
 Reserving resources
 """""""""""""""""""
@@ -88,7 +88,7 @@ The simplest reservation is::
 
 This will result in reservation of a single core for 1 hour.
 
-N.B. If your reservation times out, the job will be killed automatically and there is *no way* to extend this.
+.. note:: If your reservation times out, the job will be killed automatically and there is *no way* to extend this.
 This means that you should consider upfront how long you estimate your session to run.
 
 To reserve an interactive session for a maximum of 4 hours, please use::
@@ -99,7 +99,7 @@ To include a total of 4 cores on a **single** node, please use::
 
     srun -N 1 -c 4 -t 04:00:00 --pty bash -i
 
-N.B. Make sure that your command *always* includes ``-N 1``.
+.. note:: Make sure that your command *always* includes ``-N 1``.
 Otherwise, your job will be distributed over multiple nodes which only works under specific circumstances (e.g., using `MPI <https://en.wikipedia.org/wiki/Message_Passing_Interface>`_), which are not covered in this course.
 
 Batch sessions

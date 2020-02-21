@@ -5,6 +5,7 @@
 
 .. image:: img/EMBO_PracticalCourse_Header_03.png
   :alt: EMBO Practical Course 2020 - Integrated multi-omic analyses of microbial communities - 16th to 23rd March 2020
+  :align: center
 
 ====
 Home
