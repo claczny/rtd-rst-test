@@ -18,8 +18,8 @@
 # -- Project information -----------------------------------------------------
 
 project = 'EMBO Practical Course 2020 - Integrated multi-omic analyses of microbial communities'
-copyright = '2020, Cedric Laczny'
-author = 'Cedric Laczny'
+copyright = '2020, Anna Heintz-Buschart, Cedric Laczny, Patrick May, Alexander Probst, Paul Wilmes'
+author = 'Anna Heintz-Buschart, Cedric Laczny, Patrick May, Alexander Probst, Paul Wilmes'
 
 
 # -- General configuration ---------------------------------------------------
