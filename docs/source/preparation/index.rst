@@ -24,6 +24,9 @@ Metaproteomics
 
 Metametabolomics
 ^^^^^^^^^^^^^^^^
+- `Nicholson, Lindon, Holmes, 1999, Xenobiotica <https://www.ncbi.nlm.nih.gov/pubmed/10598751>`_
+- `Fiehn, 2002, Plant Molecular Biology <https://www.ncbi.nlm.nih.gov/pubmed/11860207>`_
+- `Patti, Yanes, Siuzdak, 2012, Nature Reviews Molecular Cell Biology <https://www.ncbi.nlm.nih.gov/pubmed/22436749>`_
 
 Microbial ecology and networks
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
