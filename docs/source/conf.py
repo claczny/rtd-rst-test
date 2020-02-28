@@ -60,3 +60,10 @@ master_doc = 'index'
 
 # Change the favicon (https://stackoverflow.com/a/54665517/271775)
 html_favicon = 'img/favicon.ico'
+
+# Taken from https://docs.readthedocs.io/en/stable/intro/getting-started-with-sphinx.html#using-markdown-with-sphinx and https://www.sphinx-doc.org/en/1.6/markdown.html in order to use also Markdown documents
+extensions = ['recommonmark']
+#source_parsers = {
+#   '.md': 'recommonmark.parser.CommonMarkParser',
+#}
+source_suffix = ['.rst', '.md']
